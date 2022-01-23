@@ -1,5 +1,12 @@
 function starNestedLoop(n, m) {
-
+  let result = "";
+  for (let i = 0; i < m; i++) {
+    for (let j = 0; j < n; j++) {
+      result += "*";
+    }
+    if (i!==m-1) result += "\n";
+  }
+  console.log(result);
 }
 
 //TEST CASE

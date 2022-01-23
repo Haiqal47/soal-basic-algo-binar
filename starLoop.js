@@ -1,5 +1,10 @@
 function starLoop(n) {
-  
+  if (n<0) {
+    console.log("number invalid");
+  }
+  for (let i = 0; i < n; i++) {
+    console.log("*");
+  }
 }
 
 // TEST CASE

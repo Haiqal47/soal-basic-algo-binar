@@ -1,7 +1,5 @@
-function tambah() {
-  // lengkapi kode di bawah ini
-
-  
+function tambah(n, m) {
+  return n + m;
 }
 
 // TEST CASE
